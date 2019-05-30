@@ -1,0 +1,43 @@
+{
+  "name": "tilelive-gridshift",
+  "version": "0.0.1",
+  "description": "Generate vector tiles showing shift between nad27 and nad83.",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@mapbox/tilelive": "^6.0.0",
+    "@mapbox/sphericalmercator": "~1.1.0",
+    "@turf/bearing": "~5.1.5",
+    "@turf/distance": "~5.1.5",
+    "debug": "^4.0.0",
+    "geojson-vt": "~3.2.1",
+    "vt-pbf": "~3.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trailbehind/tilelive-gridshift.git"
+  },
+  "keywords": [
+    "tilelive"
+  ],
+  "_npmUser": {
+    "name": "jessecrocker",
+    "email": "jesse@gaiagps.com"
+  },
+  "author": "Jesse Crocker",
+  "maintainers": [
+    {
+      "name": "Jesse Crocker",
+      "email": "jesse@gaiagps.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/trailbehind/tilelive-gridshift/issues"
+  },
+  "homepage": "https://github.com/trailbehind/tilelive-gridshift#readme"
+}
